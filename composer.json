@@ -2,5 +2,10 @@
     "name": "tronmedia/oxid-test-module",
     "type": "oxideshop-module",
     "license": "GPL-3.0-only",
-    "homepage": "https://github.com/tronmedia123/oxid"
+    "homepage": "https://github.com/tronmedia123/oxid",
+   "version": "1.00,    
+    "require": {
+        "oxid-esales/oxideshop-metapackage-ce": ">=6.0.0 <=6.0.3 - >=6.5.0 <=6.5.1",
+        "php": "7.0.* - 8.1.*",
+    },
 }
