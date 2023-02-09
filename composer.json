@@ -1,6 +1,6 @@
 {
     "name":        "tronmedia/oxid6-example-module",
-    "description": "",
+    "description": "Testmodul für Oxidshop",
     "type":        "oxideshop-module",
     "keywords":    [
         "oxid",
