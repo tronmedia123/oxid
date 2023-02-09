@@ -2,11 +2,5 @@
     "name": "tronmedia/oxid-test-module",
     "type": "oxideshop-module",
     "license": "GPL-3.0-only",
-    "homepage": "https://github.com/tronmedia123/oxid",
-    "authors": [
-        {
-            "name": "Lars Peters",
-            "email": "l.peters@tronmedia.de"
-        }
-    ]
+    "homepage": "https://github.com/tronmedia123/oxid"
 }
