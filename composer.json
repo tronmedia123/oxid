@@ -1,0 +1,35 @@
+{
+    "name":        "tronmedia/oxid6-example-module",
+    "description": "",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop",
+        "Editor"
+    ],
+    "homepage":    "https://www.tronmedia.de",
+    "license":     [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "authors":     [
+        {
+            "name":  "tronmedia.de | Codes and freedom",
+            "email": "l.peters@tronmedia.de"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "tronmedia/oxid6-example-module"
+        }
+    },
+    "require":     {
+        "php": ">=5.6"
+    },
+    "autoload":    {
+        "psr-4": {
+            "tronmedia\\oxid6ExampleModule\\": "../../../source/modules/tronmedia/oxid6-example-module"
+        }
+    }
+}
