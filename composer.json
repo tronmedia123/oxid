@@ -1,5 +1,5 @@
 {
-    "name":        "tronmedia/oxid6-example-module",
+    "name":        "tronmedia/oxid-test-module",
     "description": "Testmodul für Oxidshop",
     "type":        "oxideshop-module",
     "keywords":    [
@@ -21,7 +21,7 @@
     ],
     "extra":       {
         "oxideshop": {
-            "target-directory": "tronmedia/oxid6-example-module"
+            "target-directory": "tronmedia/oxid-test-module"
         }
     },
     "require":     {
@@ -29,7 +29,7 @@
     },
     "autoload":    {
         "psr-4": {
-            "tronmedia\\oxid6ExampleModule\\": "../../../source/modules/tronmedia/oxid6-example-module"
+            "tronmedia\\oxid6ExampleModule\\": "../../../source/modules/tronmedia/oxid-test-module"
         }
     }
 }
