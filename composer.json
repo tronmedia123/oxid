@@ -29,7 +29,7 @@
     },
     "autoload":    {
         "psr-4": {
-            "linslin\\oxid6ExampleModule\\": "../../../source/modules/test/oxid6-example-module"
+            "test\\oxid6ExampleModule\\": "../../../source/modules/test/oxid6-example-module"
         }
     }
 }
