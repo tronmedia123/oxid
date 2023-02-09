@@ -21,15 +21,15 @@ $aModule = array(
         'de' => '<h2>OXID6 example module</h2>',
         'en' => '<h2>OXID6 example module</h2>',
     ),
-    'thumbnail'   => 'out/pictures/linslin-org-logo.png',
+    'thumbnail'   => 'out/pictures/ltronmedia-logo.png',
     'version'     => '1.0.0',
-    'author'      => 'linslin.org UG | Codes and freedom',
-    'url'         => 'https://www.linslin.org',
-    'email'       => 'info@linslin.org',
+    'author'      => 'tronmedia.de UG | Codes and freedom',
+    'url'         => 'https://www.tronmedia.de',
+    'email'       => 'l.peters@tronmedia.de',
     'extend'      => array(
     ),
     'controllers'       => array(
-        'linslinexamplemodulemain' => \linslin\oxid\Controller\Admin\MainController::class,
+        'tronmediaxamplemodulemain' => \tronmedia\oxid\Controller\Admin\MainController::class,
     ),
     'templates'   => array(
         'main.tpl' => 'tronmedia/oxid/views/admin/main.tpl'
