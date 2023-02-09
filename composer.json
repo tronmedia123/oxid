@@ -1,5 +1,5 @@
 {
-    "name": "tronmedia/oxid-test",
+    "name": "tronmedia/oxid-test-module",
     "type": "oxideshop-module",
     "license": "GPL-3.0-only",
     "homepage": "https://github.com/tronmedia123/oxid",
