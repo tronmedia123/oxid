@@ -22,5 +22,5 @@
         "psr-4": {
             "tronmedia\\Oxid6Client\\": "../../../source/modules/tronmedia/tronmedia-oxid6-client"
         }
-    },
+    }
 }
