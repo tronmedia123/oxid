@@ -3,11 +3,6 @@
     "type": "oxideshop-module",
     "license": "GPL-3.0-only",
     "homepage": "https://github.com/tronmedia123/oxid",
-    "extra": {
-        "oxideshop": {
-            "target-directory": "tronmedia/tronmedia-oxid6-client"
-        }
-    },
     "authors": [
         {
             "name": "Lars Peters",
