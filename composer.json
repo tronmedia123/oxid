@@ -1,11 +1,35 @@
 {
-    "name": "tronmedia/oxid-test-module",
-    "type": "oxideshop-module",
-    "license": "GPL-3.0-only",
-    "homepage": "https://github.com/tronmedia123/oxid",
-   "version": "1.00",    
-    "require": {
-        "oxid-esales/oxideshop-metapackage-ce": ">=6.0.0 <=6.0.3 - >=6.5.0 <=6.5.1",
+    "name":        "test/oxid6-example-module",
+    "description": "",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop",
+        "Editor"
+    ],
+    "homepage":    "https://www.test.org",
+    "license":     [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "authors":     [
+        {
+            "name":  "test.org UG | Codes and freedom",
+            "email": "info@test.org"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "test/oxid6-example-module"
+        }
+    },
+    "require":     {
         "php": ">=5.6"
+    },
+    "autoload":    {
+        "psr-4": {
+            "linslin\\oxid6ExampleModule\\": "../../../source/modules/test/oxid6-example-module"
+        }
     }
 }
